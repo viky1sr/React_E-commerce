@@ -4,6 +4,7 @@
   --mainWhite   : #eafff2;
   --mainDark    : #000000;
   --mainYellow  : #dcff00;
+  --mainGray  : #869187;
 }
 body{
   font-family: "Oswald", sans-serif !important;
@@ -12,7 +13,7 @@ body{
 }
 .text-title{
   font-family: 'Permanent Marker', cursive;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 .text-blue{

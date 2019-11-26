@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import Logo from "../logo.svg";
+import {ButtonContainer} from "./Button";
+import {NavWR} from "./Button";
 
-class Navbar extends Component {
+export default class Navbar extends Component {
     render() {
         return (
-           <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+                <NavWR className="navbar navbar-expand-sm bg-secondary navbar-dark px-sm-5">
                <Link to="/">
                    <img src={Logo} alt="store" className="navbar-brand" />
                </Link>
@@ -17,14 +19,14 @@ class Navbar extends Component {
                    </li>
                </ul>
                <Link to="/cart" className="ml-auto" >
-                   <button>
+                   <ButtonContainer>
+                       <span className="mr-2">
                        <i className="fas fa-cart-plus" />
+                       </span>
                        My Cart
-                   </button>
+                   </ButtonContainer>
                </Link>
-               </nav>
+               </NavWR>
         );
     }
 }
-
-export default Navbar;
