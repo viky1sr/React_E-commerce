@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58f6996-6dcd-4f57-b28f-8a06795ad0cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +60,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Styled.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Component/Styled.js" working-dir="$PROJECT_DIR$/src/Component">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Styled.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
@@ -85,7 +87,9 @@
       <workItem from="1574743368322" duration="1480000" />
       <workItem from="1574759750591" duration="10392000" />
       <workItem from="1574772822248" duration="1667000" />
-      <workItem from="1574775365102" duration="9204000" />
+      <workItem from="1574775365102" duration="10083000" />
+      <workItem from="1574814947671" duration="3112000" />
+      <workItem from="1574820033178" duration="3374000" />
     </task>
     <servers />
   </component>

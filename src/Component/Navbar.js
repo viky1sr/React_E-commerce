@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import Logo from "../logo.svg";
-import {ButtonContainer} from "./Button";
-import {NavWR} from "./Button";
+import {ButtonContainer} from "./Styled";
+import {NavWR} from "./Styled";
 
 export default class Navbar extends Component {
     render() {
         return (
-                <NavWR className="navbar navbar-expand-sm bg-secondary navbar-dark px-sm-5">
+                <NavWR className="navbar navbar-expand-sm navbar-dark px-sm-5">
                <Link to="/">
                    <img src={Logo} alt="store" className="navbar-brand" />
                </Link>
